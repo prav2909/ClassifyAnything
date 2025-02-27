@@ -102,7 +102,6 @@ ClassifyAnything/
 ├── classification
     └── detr.py
 ├── README.md
-├── LICENSE
 └── results/
     ├── object_detection.jpg
     └── segmentation.jpg
