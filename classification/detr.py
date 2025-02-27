@@ -1,7 +1,6 @@
 import os
 import sys
 from datetime import datetime
-from transformers import DetrImageProcessor, DetrForObjectDetection
 from PIL import Image, ImageDraw, ImageFont
 import torch
 import matplotlib.pyplot as plt
