@@ -5,7 +5,7 @@ FROM continuumio/miniconda3
 WORKDIR /app
 
 # Copy the conda env creation yaml file to local
-COPY base_image/conda_env.yml /app/conda_env.yml
+COPY conda_env.yml /app/conda_env.yml
 
 # RUN the conda create env command to create an env from yaml file
 RUN conda env create -f /app/conda_env.yml
